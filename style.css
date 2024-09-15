@@ -65,6 +65,7 @@ body > main article {
 #main-content {
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
 }
 
 #main-content > div{
