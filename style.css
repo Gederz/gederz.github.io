@@ -1,7 +1,8 @@
 body{
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Papyrus, Arial, sans-serif;
     margin: 0px ;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    background-color: rgb(190, 247, 228);
 }
 
 #logo {
@@ -25,8 +26,8 @@ ul {
 }
 
 body > header {
-    background-color: orange;
-    color: white ;
+    background-color: green;
+    color: greenyellow ;
     display: flex;
     height: 15vh;
     align-items: center;
@@ -49,13 +50,11 @@ body > header > nav > ul {
 }
 
 .navbutton {
-    color: white;
+    color: greenyellow;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 15%;
-
-
 }
 
 body > main article {
@@ -81,7 +80,7 @@ h2 {
 }
 
 body > footer{
-    background-color: orange;
+    background-color: green;
     display: flex;
 }
 
@@ -99,6 +98,6 @@ img {
 }
 
 #footer-ul > div > li > a{
-    color: white;
+    color: greenyellow;
     text-decoration: none;
 }
